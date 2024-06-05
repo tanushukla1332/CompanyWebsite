@@ -1,0 +1,3 @@
+[submodule "src/Components/ServicesPages/SEO"]
+	path = src/Components/ServicesPages/SEO
+	url = https://github.com/tanushukla1332/CompanyWebsite.git
