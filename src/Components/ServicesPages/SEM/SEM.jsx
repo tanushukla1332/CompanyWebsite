@@ -22,6 +22,7 @@ import Proj5Img from '../../../../public/Image/img (9).png';
 import Proj6Img from '../../../../public/Image/img (12).png';
 import Proj7Img from '../../../../public/Image/img (15).png';
 import Proj8Img from '../../../../public/Image/projall1.png';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -30,6 +31,13 @@ export default function SEM(title) {
     return (
 
         <>
+        <Helmet>
+        <title>Search Engine Marketing Services | SEM and PPC Services Company</title>
+        <meta name="description" content="Razobyte SoftTech helps build trustworthy and effective search engine marketing and pay-per-click strategies for our clients."/>
+        <meta name="keywords" content='sem services, SEM Agency ,SEM Company, Pay Per Click Services, PPC Services ,
+        search engine marketing Services, SEM Services'/>
+
+        </Helmet>
             <Row className='flex items-center align-items-center justify-center'>
                 <Col md className='px-0' >
                     <img src={BannerImg} alt="" className='img-fluid' />

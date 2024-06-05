@@ -7,18 +7,12 @@ import Projects from '../Projects/Projects2';
 import Testominials from '../../HomePages/Testominals/Testomnials';
 import { Helmet } from 'react-helmet';
 import AbBannerImage from '../../../../public/Image/Ab-banner.png';
-
 import '../About/About.css'
 import { useNavigate } from 'react-router';
-
-
-
 
 export default function About() {
     const navigate=useNavigate()
     const [clients, setClients] = useState(false)
-
-
     return (
         <>
         <Helmet>

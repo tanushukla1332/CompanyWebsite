@@ -107,7 +107,7 @@ export default function App() {
             <Route path="services/development/php-development" element={<Php />} />
             <Route path="services/development/html-css-website"  element={<HtmlPage />} />
             <Route path="services/rubyrails" element={<RubyRails />} />
-            <Route path="/services/design/ui/ux-design" element={<UI />} />
+            <Route path="/services/ui/ux-design" element={<UI />} />
             <Route path="/services/digital-marketing/email-marketing" element={<Email />} />
             <Route path="/services/digital-marketing/smm/social-media-marketing" element={<SocialMediaMarketing />} />
             <Route path="services/mobile-application/android-applications-development" element={<Android />} />

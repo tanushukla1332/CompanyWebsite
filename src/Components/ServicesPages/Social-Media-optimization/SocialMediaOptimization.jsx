@@ -12,6 +12,7 @@ import Proj6Img from '../../../../public/Image/img (12).png';
 import Proj7Img from '../../../../public/Image/img (15).png';
 import Proj8Img from '../../../../public/Image/projall1.png';
 import BannersmImg from '../../../../public/Image/SMO-Banner.png'
+import { Helmet } from 'react-helmet';
 
 
 
@@ -21,6 +22,12 @@ export default function SocialMediaOpt(title) {
     return (
 
         <>
+        <Helmet>
+        <title></title>
+        <meta name="description" content=""/>
+        <meta name="keywords" content=''/>
+
+        </Helmet>
            
         <Row 
         className='justify-content-center align-items-center'

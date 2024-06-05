@@ -5,6 +5,10 @@
     height: 350px !important;
 
 }
+.bannerheight{
+    min-height: 480px;
+    width: 100%;
+}
 
 .btn1{
     color: #3B7FBF!important;
@@ -488,28 +492,32 @@ figcaption{
 /* Home page Resoponsive */
 /* 1st section */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-    .banner-images-firstsection{
-        height:40vh!important; /* or specify a pixel value */
+    
+    .bannerheight{
+        min-height: 480px;
+        width: 100%;
     }
 
 }
 @media screen and (min-width: 768px) and (max-width: 1000px) { 
-    .banner-images-firstsection{
-        height:38vh!important; /* or specify a pixel value */
+    .bannerheight{
+        min-height: 400px;
+        width: 100%;
     }
 
 
 }
 @media  screen and (max-width: 768px) and (min-width: 576px) { 
-    .banner-images-firstsection{
-        height:32vh!important; /* or specify a pixel value */
-        width: 400px!important;
+    .bannerheight{
+        min-height: 380px;
+        width: 100%
     }
  }
  @media screen and  (max-width: 576px) { 
-    .banner-images-firstsection{
-        height:30vh!important; /* or specify a pixel value */
-        width:300px!important;
+ 
+    .bannerheight{
+        min-height: 200px;
+        width: 100%;
     }
 
  }

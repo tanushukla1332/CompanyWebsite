@@ -132,20 +132,20 @@ export default function Banner (){
       options={options}
     />
       
-      <Row className=' flex justify-content-evenly align-items-center'>      
-            <Col md= {5} sm={10} xs={12} xxl={5} lg={5} className='text-light flex flex-col  ps-5'>
+      <Row className='flex justify-content-evenly align-items-center bannerheight'>      
+            <Col md={6} sm={12} xs={12} xxl={5} xl={5}  lg={7} className='text-light flex flex-col  ps-5'>
                 <h1 className='hed1  pt-2'>Revolutionize</h1>
                 <h3 className='hed3 text-white'>Your Business with Razobyte's Innovative Tech & Marketing Mastery
                 </h3>
                 <p className='bannerpara'>Unleash the full potential of your brand with Razobyte's integrated IT solutions and creative digital marketing strategies. Our expertise bridges the latest technology with market-leading insights, ensuring your business stays ahead in a dynamic digital landscape. Partner with Razobyte to navigate the future of digital excellence.</p>
-                <div className="d-flex jjustify-content-center align-itmes-center gap-3 mb-3">
+                <div className="d-flex jjustify-content-center align-itmes-center gap-3 mb-3 mt-3">
                 <Button className=" btm" variant='dark'>Get in touch </Button>
                 <Button variant='dark' className=" btm ">About Us</Button>
                 </div>
             </Col>
-            <Col md={5} xs={12} sm={10} xxl={5} className='d-flex justify-content-center align-items-center  pt-2 '>
+            <Col md={6} xs={10} sm={10} xxl={5}  lg={5} xl={5} className='d-flex justify-content-center align-items-center  pt-2 '>
                 <img src={home2img} alt='banner-img' fluid
-                    className='rounded-1 banner-images-firstsection img-fluid  ' 
+                    className='rounded-1 img-fluid  ' 
                 />
             </Col>
         </Row>  

@@ -36,13 +36,11 @@ export default function Home() {
         <>
             <Helmet>
                 <title> Software Development and IT Consultancy Solutions | Razobyte SoftTech</title>
-                <meta
-                    name="Home page"
-                    content=" Discover Razobyte SoftTech's IT consultancy near you for strategic, operational, and technical consulting. 
-                    With 12 years of experience, we provide IT solutions and software development services."
-                />
-            </Helmet>
-
+                <meta name="description" content="Discover Razobyte SoftTech's IT consultancy near you for strategic, operational, and technical consulting. 
+                With 12 years of experience, we provide IT solutions and software development services." />
+                <meta name="keywords" content="IT Consulting, IT Consultancy near me, IT Consultancy services, Software Development
+                " />
+              </Helmet>
             <ScrollTrigger onEnter={() => setClients(true)} onExit={() => setClients(false)} >
                 <Banner />
                 <Count clients={clients} />

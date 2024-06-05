@@ -16,9 +16,7 @@ import UI1Img from '../../../../public/Image/Ui-1.png';
 import UI2Img from '../../../../public/Image/Ui-2.png';
 import UI3Img from '../../../../public/Image/Ui-3.png';
 import UI4Img from '../../../../public/Image/Ui_4.png';
-
-
-
+import { Helmet } from 'react-helmet';
 
 export default function UI(title) {
 
@@ -26,6 +24,15 @@ export default function UI(title) {
 
     return (
         <>
+        <Helmet>
+                <title>Expert UI/UX Design & Development Consulting Services | Razobyte SoftTech</title>
+                <meta name="description" content="
+                At Razobyte SoftTech, we specialize in innovative UI & UX design services, ensuring timely delivery of exceptional products. 
+                Our approach emphasizes creative design solutions tailored to your needs, setting you apart in UI/UX services." />
+                <meta name="keywords" content="ui ux design services, ui ux development services, ui ux services
+           
+                " />
+              </Helmet>
             <Row className='d-md-flex d-none align-items-center justify-content-center '
                 style={{ backgroundImage: `url(${bannerUi})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center", height: "60vh" }}>
                 <Col md>
