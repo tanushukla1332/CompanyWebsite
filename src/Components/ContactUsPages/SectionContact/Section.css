@@ -1,0 +1,16 @@
+
+.map-image-div>iframe{
+    width:600px;
+    height:400px;
+}
+
+@media screen and (max-width:786px) {
+    .map-image-div>iframe{
+        width:350px;
+        height:200px;
+        
+    }
+
+    
+    
+}
